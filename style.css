@@ -20,6 +20,7 @@ h1,
   color: #F9FAF8;
 }
 
+.footer,
 .header,
 .hero {
   background-color: #1F2937;
@@ -30,6 +31,7 @@ h2,
   color: #1F2937;
 }
 
+.footer,  
 .second-paragraph,
 .hero-secondary-text,
 a {
@@ -189,4 +191,13 @@ p.quote-text {
 
 .action-button {
   border: 3px solid white;
+}
+
+/** Footer section **/
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
