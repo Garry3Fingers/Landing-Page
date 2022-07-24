@@ -15,7 +15,8 @@ ul {
 }
 
 h1,
-.logo {
+.logo,
+.first-paragraph {
   color: #F9FAF8;
 }
 
@@ -29,13 +30,20 @@ h2,
   color: #1F2937;
 }
 
+.second-paragraph,
 .hero-secondary-text,
 a {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-/** Header part **/
+.action-button,
+.hero-button,
+.action-section {
+  background-color: #3882F6;
+}
+
+/** Header section **/
 a {
   text-decoration: none;
 }
@@ -59,7 +67,7 @@ ul {
   font-weight: 700;
 }
 
-/** Hero part **/
+/** Hero section **/
 h1 {
   font-size: 48px;
   font-weight: 900;
@@ -70,11 +78,11 @@ h1 {
   width: 550px;
 }
 
+.action-button,
 .hero-button {
   width: 120px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
-  background-color: #3882F6;
   color: white;
   border: 0;
   border-radius: 12px;
@@ -99,7 +107,7 @@ h1 {
   padding: 15px 0;
 }
 
-/** Main content part **/
+/** Main content section **/
 .card {
   display: flex;
   flex-direction: column;
@@ -136,7 +144,7 @@ h2 {
   align-items: center;
 }
 
-/** Quote Part **/
+/** Quote section **/
 .quote-section {
   background-color: #E5E7EB;
   padding: 150px 700px;
@@ -158,4 +166,27 @@ h2 {
 p.quote-text {
   font: italic 100 36px 'Roboto Slab', serif;
   padding-right: 0;
+}
+
+/** Action section **/
+.action-section {
+  height: 250px;
+  margin: 100px 600px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-paragraph {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.second-paragraph {
+  font-size: 22px;
+}
+
+.action-button {
+  border: 3px solid white;
 }
