@@ -23,7 +23,7 @@ h1,
 .footer,
 .header,
 .hero {
-  background-color: #1F2937;
+  background-color: #556945;
 }
 
 h2,
@@ -42,7 +42,7 @@ a {
 .action-button,
 .hero-button,
 .action-section {
-  background-color: #3882F6;
+  background-color: #8B694D;
 }
 
 /** Header section **/
@@ -61,6 +61,7 @@ ul {
   padding: 24px 80px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -78,6 +79,8 @@ h1 {
 .image-girl-and-dog {
   height: auto;
   width: 550px;
+  padding-top: 5px;
+  border-radius: 12px;
 }
 
 .action-button,
@@ -96,6 +99,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -129,21 +133,22 @@ h1 {
 }
 
 .card-container {
-  width: 1400px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 900;
   margin: 40px 0;
+  text-align: center;
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 0 550px;
 }
 
 /** Quote section **/
@@ -178,6 +183,7 @@ p.quote-text {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .first-paragraph {
